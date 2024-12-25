@@ -1,8 +1,3 @@
-
-
----
-
-```markdown
 # **ADDCard React Component**
 
 A React component that displays user cards with the option to toggle between adding and removing users as friends. The component includes user details (name, username, email, and an image) and a button to add or delete friends. The button dynamically changes its text and color based on the user's friend status.
@@ -25,7 +20,6 @@ A React component that displays user cards with the option to toggle between add
 ```bash
 git clone https://github.com/your-username/addcard-react.git
 cd addcard-react
-```
 
 ### 2. Install Dependencies
 
