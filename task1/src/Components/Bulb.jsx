@@ -14,7 +14,9 @@ const Bulb = () => {
         className={`w-32 h-32 rounded-full shadow-lg ${
           isBulbOn ? 'bg-yellow-400 shadow-orange-400' : 'bg-gray-300 shadow-gray-500'
         } transition-all duration-300`}
-      ></div>
+      >
+        
+      </div>
 
       <button
         onClick={handleBulb}
