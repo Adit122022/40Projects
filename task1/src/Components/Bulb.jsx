@@ -12,15 +12,15 @@ const Bulb = () => {
       {/* Bulb */}
       <div
         className={`w-32 h-32 rounded-full shadow-lg ${
-          isBulbOn ? 'bg-yellow-400 shadow-orange-400' : 'bg-gray-300 shadow-gray-500'
+          isBulbOn ? 'bg-yellow-400 shadow-orange-400' : 'bg-gray-500 shadow-gray-500'
         } transition-all duration-300`}
       >
-        
+
       </div>
 
       <button
         onClick={handleBulb}
-        className={`mt-8 px-6 py-2 font-bold ${ isBulbOn ? '  text-black bg-slate-200 rounded-lg hover:bg-blue-700' : 'text-white bg-gray-500 rounded-lg hover:bg-blue-700'}  transition-all duration-300`}>
+        className={`mt-8 px-6 py-2 font-bold ${ isBulbOn ? '  text-white bg-slate-500 rounded-lg hover:bg-slate-700' : 'text-black bg-gray-500 rounded-lg hover:bg-gray-700'}  transition-all duration-300`}>
         {isBulbOn ? 'Turn OFF' : 'Turn ON'}
       </button>
     </div>
