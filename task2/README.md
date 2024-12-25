@@ -145,6 +145,3 @@ Feel free to fork the repository and submit a pull request to contribute. Some i
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-```
-
-This is the final cleaned-up version of the `README.md` file. You can now copy and paste it into your project! Let me know if you need any more changes.
