@@ -43,14 +43,14 @@ const ADDCard = () => {
           {/* Display User Information */}
           <h1 className="text-xl font-semibold">{user.username}</h1>
           <h2 className="text-lg">{user.name}</h2>
-          <p>{user.email}</p>
+          <p className='text-gray-400'>{user.email}</p>
 
           {/* Add/Remove Friend Button */}
           <button
   onClick={() => handleFriendToggle(user)}
-  className={`mt-4 px-6 py-3 rounded-md text-white font-medium shadow-sm transition-all duration-200 ease-in-out transform hover:scale-105 focus:outline-none 
+  className={`mt-4 px-6 py-2 rounded-md text-white font-medium shadow-sm transition-all duration-200 ease-in-out transform hover:scale-105 focus:outline-none 
     ${friends.some(friend => friend.id === user.id) 
-      ? 'bg-blue-500 hover:bg-blue-600' 
+      ? 'bg-rose-500 hover:bg-rose-600' 
       : 'bg-green-500 hover:bg-green-600'
     }`}
 >
