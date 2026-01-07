@@ -9,7 +9,7 @@ Welcome to my collection of 40 React projects! This repository showcases my jour
 |    1    | **Pull Thread Light Bulb** | Interactive light bulb with spring physics and drag interaction. | [Code](./task1)  | [Live Demo](#) |
 |    2    | **Add Friend Feature**     | UI component for adding friends.                                 | [Code](./task2)  | [Live Demo](#) |
 |    3    | **Random Color Generator** | Generates random colors for palette exploration.                 | [Code](./task3)  | [Live Demo](#) |
-|    4    | **[Coming Soon]**          | Project in development.                                          |        -         |       -        |
+|    4    | **Watch**          |Real time wrist watch |        [Code](./AllTasks/src/Tasks/Tasks4.jsx)        |       [Live Demo](#)        |
 |    5    | **[Coming Soon]**          | Project in development.                                          |        -         |       -        |
 |    6    | **[Coming Soon]**          | Project in development.                                          |        -         |       -        |
 |    7    | **API Data Fetching**      | Data fetching implementation (Class 7).                          | [Code](./class7) | [Live Demo](#) |
